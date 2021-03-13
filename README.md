@@ -1,9 +1,7 @@
-# AZ Excel Uploader
+# React Js Excel parser & GRID publisher
 
-This is a techncial POC build by Pardeep Kumar, in contect of an technical proceeding with AZ. 
+This is a projwct which parse your uploded Excel & publish grid using same. Developed by Pardeep Kumar, is Open licence for community help. Feel free to Fork/ Download and use. 
 
-## Security
-This is AZ corporate identified codebase, do not attempt to copy or reuse this code.
 
 ## Available Scripts
 
