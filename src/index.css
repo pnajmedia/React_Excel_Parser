@@ -1,0 +1,81 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Drag n Drop */
+
+.hoverOn{
+  border: 1px dashed green;
+  padding: 5em;
+  background: rgb(167, 236, 167);
+  font-family: inherit;
+  margin-bottom: 1em;
+}
+.hoverOff{
+  border: 1px dashed #8b9da6;
+    padding: 5em;
+    background: #fafaff87;
+    font-family: inherit;
+    margin-bottom: 1em;
+}
+
+
+/*Container*/
+
+#bonBg {
+  background-image: url('./images/AZ_Royalty_free_img.jpg');
+  background-size: cover;
+  height: auto;
+  min-height: 700px;
+  width: 100%;
+}
+
+.wrapper-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  overflow-y: hidden;
+  height: auto;
+  padding-bottom: 5em;
+}
+.box {
+  background: #8f9ba9ba;
+  width: 50%;
+  padding: 40px;
+  border-radius: 12px;
+  margin-top: 4%;
+}
+.textDecorator{
+  color: #f3f1f0;
+  font-family: 'Gill Sans';
+  font-size: x-large;
+}
+.listing-image-container{
+display: flex;
+justify-content: space-between;
+}
+.listing-image{
+width: 38%;
+margin-top: 5px;
+border: 2px inset #74b0b8;
+}
+.listingButtons{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+width: 35%;
+}
